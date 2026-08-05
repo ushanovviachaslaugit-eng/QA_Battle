@@ -1,5 +1,5 @@
-user_name = input("Введитесвое свое ФИО")
-user_age =int(input("Введитесвой год своего рождения"))
+user_name = input("Введитесвое свое ФИО: ")
+user_age =int(input("Введитесвой год своего рождения: "))
 from datetime import datetime #Из модуля datetime импортируй класс datetime"
 current_year = datetime.now().year #присваиваем current_year текущий год
 age = current_year - user_age #выесням возраст пользователя
